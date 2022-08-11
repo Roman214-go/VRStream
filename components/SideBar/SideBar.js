@@ -19,18 +19,18 @@ import Recording from '../SideMenu/Record';
 
 const SideBar = () => {
     return (
-        <ProSidebar collapsed={true} className={style.sidebar}>
-            <SidebarHeader>
+        <ProSidebar collapsed={true} className={style.sidebar} >
+            <SidebarHeader >
                 <Menu>
                     <MenuItem icon={<ImHome size="40px"/>}>
                         Home
                     </MenuItem>
                 </Menu>
             </SidebarHeader>
-            <SidebarContent>
-                <Menu>
-                    <SubMenu title="Avatars" icon={<GiRabbitHead size="40px"/>}>
-                            <MenuItem className={style.collapsed}>
+            <SidebarContent >
+                <Menu >
+                    <SubMenu title="Avatars" icon={<GiRabbitHead size="40px"/>} >
+                            <MenuItem className={style.collapsed} >
                                 
                                 <AvatarInventory />
                             </MenuItem>
@@ -52,7 +52,7 @@ const SideBar = () => {
                     </SubMenu>
                 </Menu>
             </SidebarContent>
-            <SidebarFooter>
+            <SidebarFooter  >
                 <Menu>
                     <SubMenu icon={<FaUserAlt size="40px"/>}>
                         <MenuItem className={style.collapsed}>
