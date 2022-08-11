@@ -28,7 +28,6 @@ h2 {
   opacity: 0 !important;
   transition: opacity .5s !important;
   padding: 0 !important;
-  left: -100px;
   pointer-events: none;
 }
 
@@ -36,5 +35,4 @@ h2 {
   transform: translateX(80px);
   pointer-events: all;
   opacity: 1 !important;
-  left: 0px !important;
 }
