@@ -26,12 +26,14 @@ h2 {
 .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu > .pro-inner-list-item {
   visibility: visible !important;
   opacity: 0 !important;
-  transition: transform 4s, opacity .5s !important;
+  transition: opacity .5s !important;
   padding: 0 !important;
+  left: -100px;
   pointer-events: none;
 }
 
 .pro-sidebar.collapsed .pro-menu > ul > .pro-menu-item.pro-sub-menu:hover > .pro-inner-list-item {
+  transform: translateX(80px);
   pointer-events: all;
   opacity: 1 !important;
   left: 0px !important;
